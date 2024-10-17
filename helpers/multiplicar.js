@@ -6,12 +6,10 @@ const crearArchivo = (base , listar,hasta) => {
    
     return new Promise ((resolve,reject) => {
        
-            console.log('==============')
-            console.log('Tabla del:'.rainbow, base)
-            console.log('==============')
-           
-            let salida  = '';
-            let consola = '';
+            console.log() 
+            let consola  = `==============\n${'Tabla del:'.rainbow} ${base}
+==============\n`
+            let salida = '';
             let i = 1
             for(i = 1; i<hasta;i++){
                 salida +=`${(base)} x ${(i)} = ${(base*i)}\n`;
