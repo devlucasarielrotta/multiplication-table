@@ -2,9 +2,19 @@
 
 # 1- run command npm install
 
-# 2- run command npm start for get an example
+# 2- run command npm start for get an example 
+
+
 
 # 3- run command node app.js --help for get more help
+```
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -b, --base     numero a multiplicar                        [number] [required]
+  -h, --hasta    Limite hasta donde se mostrara la tabla  [number] [default: 10]
+  -l             muestra o no la salida por consola   [boolean] [default: false]
+```
 
 # Tecnologies used
 <div align="center">
